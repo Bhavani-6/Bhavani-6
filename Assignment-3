@@ -1,0 +1,29 @@
+- 👋 Hi, I’m @Bhavani-6
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Bhavani-6/Bhavani-6 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+n=int(input("enter n:"))
+odd=[]
+even=[]
+esum=0
+eodd=0
+total=0
+for i in range(n):
+    total +=i
+    if(i%2 == 0):
+        even.append(i)
+        esum+=i
+    else:
+        odd.append(i)
+        eodd+=i
+print("even numbers",*even)
+print("odd numbers",*odd)
+print("even sum",esum)
+print("odd sum",eodd)
+print("total sum",total)
